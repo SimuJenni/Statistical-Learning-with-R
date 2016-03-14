@@ -35,7 +35,7 @@ mySummary <- function(x) {
       max = max(x)
     ))
   } else {
-    # Also show error if unput is not a vetor
+    # Also show error if input is not a vetor
     stop("Input is not a vector!")
   }
 }
@@ -67,11 +67,26 @@ res = apply(mat, 1, function(x)
   t.test(x, mu = 1.5))
 
 # Extract p-values
-pVals = lapply(res, function(x)
-  x$p.value) #extract p-values
+pValues = sapply(res, function(x)
+  x$p.value) 
+
+# Extract confidence interval
+confInt = sapply(res, function(x)
+  x$conf.int)
+lowerBnd = confInt[1,]
+upperBnd = confInt[2,]
+
+# Extract estimate
+estimate = sapply(res, function(x)
+  x$estimate)
+
+# # Generate a latex table
+# library(xtable)
+# res.data <- data.frame(estimate, lowerBnd, upperBnd, pValues)
+# xtable(res.data, auto = TRUE)
 
 # Count the number of correct results (true mean != 1.5)
-numRight = sum(pVals < 0.05)
+numRight = sum(pValues < 0.05)
 
 # Compute t-test on all the sample-values
 t.test(as.vector(mat), mu = 1.5)
