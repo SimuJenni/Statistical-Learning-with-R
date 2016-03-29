@@ -97,3 +97,4 @@ confint(fit)
 
 plot(mpg ~ weight, data = clean_data, main="Relationship between weight and mpg")
 abline(fit, col = "red")
+
