@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.4)  29 MAR 2016 15:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.4)  29 MAR 2016 21:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -264,52 +264,52 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) <images/res1.png, id=1, 504.88625pt x 398.48875pt>
 File: images/res1.png Graphic file (type png)
  <use images/res1.png>
-Package pdftex.def Info: images/res1.png used on input line 70.
+Package pdftex.def Info: images/res1.png used on input line 76.
 (pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 85.
 
-<images/res2.png, id=3, 504.88625pt x 398.48875pt>
-File: images/res2.png Graphic file (type png)
- <use images/res2.png>
-Package pdftex.def Info: images/res2.png used on input line 80.
-(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
- <images/ex3.png, id=4, 504.88625pt x 398.48875pt>
-File: images/ex3.png Graphic file (type png)
- <use images/ex3.png>
-Package pdftex.def Info: images/ex3.png used on input line 90.
-(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
- <images/res4.png, id=5, 504.88625pt x 398.48875pt>
-File: images/res4.png Graphic file (type png)
- <use images/res4.png>
-Package pdftex.def Info: images/res4.png used on input line 100.
-(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
- <images/ex4.png, id=6, 504.88625pt x 398.48875pt>
-File: images/ex4.png Graphic file (type png)
- <use images/ex4.png>
-Package pdftex.def Info: images/ex4.png used on input line 110.
-(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 119.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 122.
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 88.
  [1
 
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2 <./images/res1.png> <./images/res2.png>] [3 <./images/ex3.png> <./images/res4.png>] [4 <./images/ex4.png>] [5] (./ex5_jenni.aux) ) 
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] <images/res2.png, id=17, 504.88625pt x 398.48875pt>
+File: images/res2.png Graphic file (type png)
+ <use images/res2.png>
+Package pdftex.def Info: images/res2.png used on input line 129.
+(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
+ [2 <./images/res1.png>] [3 <./images/res2.png>] <images/ex3.png, id=27, 504.88625pt x 398.48875pt>
+File: images/ex3.png Graphic file (type png)
+ <use images/ex3.png>
+Package pdftex.def Info: images/ex3.png used on input line 172.
+(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
+ [4 <./images/ex3.png>] <images/res4.png, id=33, 504.88625pt x 398.48875pt>
+File: images/res4.png Graphic file (type png)
+ <use images/res4.png>
+Package pdftex.def Info: images/res4.png used on input line 200.
+(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
+ [5 <./images/res4.png>] <images/ex4.png, id=38, 504.88625pt x 398.48875pt>
+File: images/ex4.png Graphic file (type png)
+ <use images/ex4.png>
+Package pdftex.def Info: images/ex4.png used on input line 240.
+(pdftex.def)             Requested size: 276.00105pt x 217.83788pt.
+ [6 <./images/ex4.png>] (./ex5_jenni.aux) ) 
 Here is how much of TeX's memory you used:
- 6449 strings out of 493089
- 88693 string characters out of 6134842
- 214408 words of memory out of 5000000
- 9843 multiletter control sequences out of 15000+600000
+ 6450 strings out of 493089
+ 88706 string characters out of 6134842
+ 194408 words of memory out of 5000000
+ 9844 multiletter control sequences out of 15000+600000
  15675 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,9n,41p,257b,1835s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsi1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on ex5_jenni.pdf (5 pages, 295617 bytes).
+ 38i,8n,41p,257b,1831s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsi1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1000.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on ex5_jenni.pdf (6 pages, 337388 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  26 words of extra memory for PDF output out of 10000 (max. 10000000)
 

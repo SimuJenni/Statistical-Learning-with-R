@@ -91,6 +91,8 @@ clean_data = my_data[which(!is.na(my_data$horsepower)),]
 # Also drop name as discussed in Ex4
 drops <- c("name")
 clean_data = clean_data[ , !(names(clean_data) %in% drops)]
+# Origin should be categorical -> make it so!
+clean_data$origin <- as.factor(clean_data$origin)
 
 # Perform forward selection
 fit3 = forwardSelection(clean_data, "mpg")
