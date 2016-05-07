@@ -1,0 +1,120 @@
+\documentclass{paper}
+
+%\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{caption}
+\usepackage{subcaption}
+
+
+% load package with ``framed'' and ``numbered'' option.
+%\usepackage[framed,numbered,autolinebreaks,useliterate]{mcode}
+
+% something NOT relevant to the usage of the package.
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{18pt}
+\graphicspath{{images/}}
+
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+
+
+\usepackage{listings}
+\lstset{%
+   language=R,
+   basicstyle=\small\ttfamily,
+   frame=single
+}
+
+
+
+\title{Assignment 9}
+
+
+
+\author{Jenni Simon\\09-116-005}
+% //////////////////////////////////////////////////
+
+
+\begin{document}
+
+
+
+\maketitle
+
+
+% Add figures:
+%\begin{figure}[t]
+%%\begin{center}
+%\quad\quad   \includegraphics[width=1\linewidth]{ass2}
+%%\end{center}
+%
+%\label{fig:performance}
+%\end{figure}
+
+
+\paragraph{Exercise 1}
+
+I performed logistic regression using all the predictors (no model-selection performed). The resulting model achieved a training accuracy of 84.8\%. The associated confusion-matrix is shown in Table \ref{tab:log}. 
+
+\begin{table}[!h]
+\centering
+\caption{Confusion matrix for Logistic Regression on the training data}
+\begin{tabular}{|c|c|c|}
+\hline
+ & Predicted: Abnormal & Predicted: Normal \\ \hline
+Actual: Abnormal          & 186         &       23                              \\ 
+Actual: Normal              & 24        &         77                            \\ \hline
+\end{tabular}
+\label{tab:log}
+\end{table}
+
+
+\paragraph{Exercise 2}
+
+I performed linear discriminant analysis using all the predictors (no model-selection performed). The resulting model achieved a training accuracy of 85.8\%. The associated confusion-matrix is shown in Table \ref{tab:log}. 
+
+\begin{table}[!h]
+\centering
+\caption{Confusion matrix for Linear Discriminant Analysis on the training data}
+\begin{tabular}{|c|c|c|}
+\hline
+ & Predicted: Abnormal & Predicted: Normal \\ \hline
+Actual: Abnormal          & 193        &     27                                \\ 
+Actual: Normal              & 17         &       73                              \\ \hline
+\end{tabular}
+\label{tab:lda}
+\end{table}
+
+
+\paragraph{Exercise 3}
+
+To compare the models I performed 10-fold cross validation with identical folds and used the resulting per fold error-rates to perform a paired t-test. The results of the t-test are shown in Listing \ref{list:res}. No significant difference in the mean error-rate could be detected, suggesting that the models are comparable in performance. The mean error-rate of the logistic regression model was 15.5\% and the mean error-rate achieved with LDA was 16.1\%. I would therefor favour the logistic regression model due to the lower mean error-rate in cross-validation.
+
+\begin{minipage}{\linewidth}
+  \begin{lstlisting}[caption={Summary of the logistic regression model.},
+    label=list:res]
+Paired t-test
+
+data:  glm.errors and lda.errors
+t = -0.32733, df = 9, p-value = 0.7509
+alternative hypothesis: difference in means is not equal to 0
+95 percent confidence interval:
+ -0.05103874  0.03813551
+sample estimates:
+mean of the differences 
+           -0.006451613 
+  \end{lstlisting}
+\end{minipage}
+
+
+
+
+
+
+
+\end{document}
